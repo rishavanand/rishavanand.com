@@ -151,11 +151,11 @@ body {
     color: #3F51B5;
 }
 
-.projects {
+.bullet-item {
     padding-bottom: 20px;
 }
 
-.projects h5 {
+.bullet-item h5 {
     font-weight: bold;
     font-size: 15px;
     margin-bottom: 10px;
@@ -178,7 +178,7 @@ body {
     height: 100vh!important;
 }
 
-.other-project-title {
+.bullet-item-title {
     font-weight: bold;
     font-size: 15px;
 }
