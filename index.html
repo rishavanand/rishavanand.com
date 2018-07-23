@@ -1,71 +1,179 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<title>Rishav Anand</title>
-
-	<link rel="icon" type="image/png" href="favicon.png">
-
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,800' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css" media="screen" />
-	<meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rishav Anand</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-	<main>
-		<header>
-			<h1 id="title"><span>Rishav</span>Anand</h1>
-			<ul id="menu" class="menu">
-				<li>Building and breaking stuff</li>
-			</ul>
-		</header>
-		<ul class="icon-list">
-			<li class="facebook"><a target="_blank" href="https://facebook.com/iamrishavanand"><i class="fa fa-facebook"></i></a></li>
-			<li class="github"><a target="_blank" href="https://github.com/rishavanand"><i class="fa fa-github"></i></a></li>
-			<li class="twitter"><a target="_blank" href="https://twitter.com/iamrishavanand"><i class="fa fa-twitter"></i></a></li>
-			<li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/rishavanand"><i class="fa fa-linkedin"></i></a></li>
-			<li class="email"><a target="_blank" href="mailto:rishavdipsite@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
-		</ul>
-		<!-- <footer id="footer">
-			This site was built from scratch by yours truly <span class="heart">&hearts;</span>
-		</footer> -->
-	</main>
-	<div id="particles-js" class="background"></div>
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vex-js/2.3.4/js/vex.combined.min.js"></script>
-	<script>
-		$(document).ready(function() {
-			var current_delay = 500;
-			$("#title").css("opacity", 0).animate({
-				opacity: 1
-			}, 1000);
-			$("#menu").css("opacity", 0).delay(current_delay).animate({
-				opacity: 1
-			}, 1000);
-			$(".icon-list li").delay(current_delay).each(function () {
-				current_delay += 100;
-				console.log(current_delay);
-				$(this).css({
-					opacity: 0,
-					top: "-20px"
-				}).delay(current_delay).animate({
-					opacity: 1,
-					top: 0
-				}, 100);
-			});
-			current_delay += 600;
-			$("#footer").delay(current_delay).css("opacity", 0).animate({
-				opacity: 1
-			}, 1000);
-			particlesJS.load('particles-js', 'particles.json', function() {
-				console.log('callback - particles-js config loaded');
-			});
-		});
-	</script>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-sm-12  main-left-column">
+                <div id="particles-js" class="particles-js"></div>
+                <div class="sticky-sidebar">
+                    <h1><b>Rishav Anand</b></h1>
+                    <h6> Building and breaking stuff</h6>
+                    <!-- <span class="interests">Web Developer</span>
+                    <span class="interests">Freelancer</span>
+                    <span class="interests">ML Enthusiast</span> -->
+                    <div class="social-icons">
+                        <a href="mailto:rishavdipsite@gmail.com" target="_blank">
+                    		<i class="fa fa-envelope"></i>
+                    	</a>
+                        <a href="https://github.com/rishavanand" target="_blank">
+                    		<i class="fa fa-github"></i>
+                    	</a>
+                        <a href="https://www.linkedin.com/in/rishavanand/" target="_blank">
+                    		<i class="fa fa-linkedin"></i>
+                    	</a>
+                        <a href="https://facebook.com/iamrishavanand" target="_blank">
+                    		<i class="fa fa-facebook"></i>
+                    	</a>
+                        <a href="https://twitter.com/iamrishavanand" target="_blank">
+                    		<i class="fa fa-twitter"></i>
+                    	</a>
+                    </div>
+                    <!-- <button class="btn btn-default">Read Blog ></button> -->
+                </div>
+                <div class="scroll-down d-block d-sm-none">
+                    <div class="arrow bounce">
+                        <a class="fa fa-arrow-down fa-2x" onclick="scrollDown()"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 offset-md-6 main-right-column">
+                <div class="text-element">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <h6>About me</h6>
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            I'm currently an undergraduate studying Computer Science at Sikkim Manipal Institute of Technology. Outside academics, I'm a Freelance Web Developer and this comes from my passion for building stuff. Currently I'm exploring the field of Machine Learning and hope to create apps that combine power of both worlds.
+                        </div>
+                    </div>
+                </div>
+                <div class="text-element">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <h6>Education</h6>
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class="projects">
+                                <div class="other-project-title">Higher Education</div>
+                                Sikkim Manipal Institute of Technology, Sikkim
+                                <div class="text-muted">Bachelor of Technology in Computer Science
+                                    <br>2016 - present</div>
+                            </div>
+                            <div class="projects">
+                                <div class="other-project-title">Secondary Education</div>
+                                Delhi Public School, Patna
+                                <div class="text-muted">2007 - 2016</div>
+                            </div>
+                            <div class="projects">
+                                <div class="other-project-title">Primary Education</div>
+                                Bethany School, Darjeeling
+                                <div class="text-muted">2003 - 2007</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-element">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <h6>Work</h6>
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class="projects">
+                                <div class="other-project-title">Product Development Intern</div>
+                                Hasura Technologies Pvt. Ltd.
+                                <div class="text-muted">Jun 2017 - Jul 2017</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-element">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <h6>Projects</h6>
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class="projects">
+                                <h5>BidFarm</h5> A platform where farmers and merchants come together to buy and sell their produce. A farmer creates a listing for his crop and merchants bid on it giving the farmers a larger profit for their harvest.
+                                <div class="tag-cloud">
+                                    <span class="tags text-muted">SMIT Hackathon v1.0 '18</span>
+                                    <span class="tags text-muted">1<sup>st</sup> Position</span>
+                                    <span class="tags text-muted">HackerEarth</span>
+                                    <span class="tags text-muted">NodeJS</span>
+                                </div>
+                            </div>
+                            <div class="projects">
+                                <h5>Maze Solver</h5> An autonomous maze solving robot that detects walls using ultrasonic sensors and tries to get out of the maze.
+                                <div class="tag-cloud">
+                                    <span class="tags text-muted">SMIT Annual Fest</span>
+                                    <span class="tags text-muted">1<sup>st</sup> Position</span>
+                                    <span class="tags text-muted">Arduino</span>
+                                    <span class="tags text-muted">C Programming</span>
+                                </div>
+                            </div>
+                            <div class="projects">
+                                <span class="other-project-title">Bitcoin Tracking Bot</span> that tracks Bitcoin rates and sends alerts via Telegram.
+                            </div>
+                            <div class="projects">
+                                <span class="other-project-title">SMIT Result Scraper & Calculator</span> that calulcates student GPAs right on the day of result declaration.
+                            </div>
+                            <div class="projects">
+                                <span class="other-project-title">Unofficial Paytm Payment Gateway</span> that helps accept payment via PayTM without requesting for its official API.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-element">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <h6>SKILLS</h6>
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 skills">
+                                    <div class="other-project-title">Languages</div>
+                                    Python
+                                    <br> PHP
+                                    <br> JavaScript
+                                    <br> HTML
+                                    <br> SQL
+                                </div>
+                                <div class="col-sm-6 col-md-6 skills">
+                                    <div class="other-project-title">Tools</div>
+                                    Bash
+                                    <br> Git & Github
+                                    <br> Postman
+                                    <br> MongoDB
+                                    <br> Chrome DevTools
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript">
+    var scrollDown = () => {
+        $('html, body').animate({
+            scrollTop: $(".main-right-column").offset().top
+        }, 2000);
+    }
+    </script>
 </body>
 
 </html>
