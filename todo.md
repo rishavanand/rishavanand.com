@@ -3,3 +3,4 @@
 - add project links
 - add hobbies
 - add blog
+- beautify css
