@@ -3,4 +3,6 @@
 - add project links
 - add hobbies
 - add blog
-- beautify css
+- create and add favicon/logo
+- add analytics
+- ~~beautify css~~
