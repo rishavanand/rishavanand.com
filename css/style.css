@@ -44,14 +44,14 @@ body {
 
 .btn-default {
     background-color: Transparent;
-    border: 2px solid white;
+    border: 1px solid white;
     color: white;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 5px;
     padding-right: 5px;
-    margin-top: 40px;
-    font-weight: bold;
+    margin-top: 10px;
+    font-size: 0.75em;
     text-transform: uppercase;
 }
 
