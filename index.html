@@ -36,7 +36,8 @@
                             <i class="fa fa-twitter"></i>
                         </a>
                     </div>
-                    <button class="btn btn-default" id="resume-download-btn"><i class="fa fa-download"></i> Resume</button>
+                    <button class="btn btn-default" onclick="downloadResume()" <i class="fa fa-download"></i>
+                        Resume</button>
                 </div>
                 <div class="scroll-down d-block d-sm-none">
                     <div class="arrow bounce">
@@ -118,7 +119,9 @@
                         </div>
                         <div class="col-md-9 col-sm-12">
                             <div class="bullet-item">
-                                <h5>Farmchain</h5> A Farmer-Wholesaler-Retailer-Consumer platform with Blockchain based crop journey tracing system. Price change by middlemen and seller reviews are recorded in an immutable ledger.
+                                <h5>Farmchain</h5> A Farmer-Wholesaler-Retailer-Consumer platform with Blockchain based
+                                crop journey tracing system. Price change by middlemen and seller reviews are recorded
+                                in an immutable ledger.
                                 <div class="tag-cloud">
                                     <span class="badge badge-secondary">Blockchain</span>
                                     <span class="badge badge-secondary">NodeJS</span>
@@ -197,10 +200,13 @@
     <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>
     <script type="text/javascript">
-        var scrollDown = () => {
+        const scrollDown = () => {
             $('html, body').animate({
                 scrollTop: $(".main-right-column").offset().top
             }, 2000);
+        }
+        const downloadResume = () => {
+            window.open('./documents/rishav_resume.pdf', '_blank');
         }
     </script>
 </body>
