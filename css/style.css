@@ -6,203 +6,201 @@ website: https://rishavanand.com
 ----------------------------------------------------------*/
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
 }
-
 
 /* LEFT HALF */
 
 .main-left-column {
-    background: linear-gradient(#3F51B5, #673AB7);
-    background-attachment: fixed;
-    overflow: hidden;
-    height: 100vh;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    z-index: 1;
-    position: fixed;
+  background: linear-gradient(#3f51b5, #673ab7);
+  background-attachment: fixed;
+  overflow: hidden;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+  position: fixed;
 }
 
 .sticky-sidebar {
-    position: fixed;
-    width: 50%;
+  position: fixed;
+  width: 50%;
 }
 
 .main-left-column h1 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .nameplate {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-default {
-    background-color: Transparent;
-    border: 1px solid white;
-    color: white;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 10px;
-    font-size: 0.75em;
-    text-transform: uppercase;
+  background-color: Transparent;
+  border: 1px solid white;
+  color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+  font-size: 0.75em;
+  text-transform: uppercase;
 }
 
 .interests {
-    background-color: Transparent;
-    border: 1px solid white;
-    border-radius: 5px;
-    color: white;
-    padding: 5px;
-    margin-left: 5px;
-    font-size: 15px;
+  background-color: Transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  margin-left: 5px;
+  font-size: 15px;
 }
 
 .social-icons i {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .social-icons a {
-    color: white;
+  color: white;
 }
 
 .social-icons a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* PARTICLES JS */
 
 .particles-js {
-    width: 100vw;
+  width: 100vw;
 }
 
 /* SCROLL DOWN ICON */
 
 .scroll-down {
-    position: absolute;
-    padding-top: 70vh;
+  position: absolute;
+  padding-top: 70vh;
 }
 
 .scroll-down a:active {
-    color: white;
+  color: white;
 }
 
 .scroll-down a:hover {
-    color: white;
+  color: white;
 }
 
 .fa-2x {
-    color: white;
+  color: white;
 }
 
 .arrow {
-    text-align: center;
-    margin: 8% 0;
+  text-align: center;
+  margin: 8% 0;
 }
 
 .bounce {
-    -moz-animation: bounce 2s 3;
-    -webkit-animation: bounce 2s 3;
-    animation: bounce 2s 3;
+  -moz-animation: bounce 2s 3;
+  -webkit-animation: bounce 2s 3;
+  animation: bounce 2s 3;
 }
 
 @keyframes bounce {
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-30px);
-    }
-    60% {
-        transform: translateY(-15px);
-    }
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
-
 
 /* RIGHT HALF */
 
 .main-right-column {
-    font-size: 15px;
-    margin-bottom: 60px;
+  font-size: 15px;
+  margin-bottom: 60px;
 }
 
 .text-element {
-    padding-top: 60px;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 100%;
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
 }
 
 .text-element h6 {
-    padding-top: 4px;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #3F51B5;
+  padding-top: 4px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #3f51b5;
 }
 
 .bullet-item {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .bullet-item h5 {
-    font-weight: bold;
-    font-size: 15px;
-    margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
 }
 
 .tags {
-    font-size: 10px;
-    padding: 2px;
-    border-radius: 3px;
-    border-color: #6c757d;
-    border-style: solid;
-    border-width: 1px;
+  font-size: 10px;
+  padding: 2px;
+  border-radius: 3px;
+  border-color: #6c757d;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .tag-cloud {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .particles-js-canvas-el {
-    height: 100vh!important;
+  height: 100vh !important;
 }
 
 .bullet-item-title {
-    font-weight: bold;
-    font-size: 15px;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 /* MOBILE OPTIMIZATION */
 
 @media only screen and (max-width: 767px) {
-    .sticky-sidebar {
-        position: absolute;
-        width: 100vw;
-    }
+  .sticky-sidebar {
+    position: absolute;
+    width: 100vw;
+  }
 
-    .main-left-column {
-        position: relative;
-    }
+  .main-left-column {
+    position: relative;
+  }
 
-    .particles-js-canvas-el {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
+  .particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 
-    .skills {
-        width: 50%;
-    }
+  .skills {
+    margin-bottom: 1.5rem;
+  }
 }
